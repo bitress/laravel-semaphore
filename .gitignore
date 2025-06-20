@@ -1,0 +1,34 @@
+/vendor
+/.idea
+/.vscode
+/node_modules
+.env
+.env.* 
+.DS_Store
+Thumbs.db
+*.log
+*.lock
+
+# PHPStorm / JetBrains
+*.iml
+*.ipr
+*.iws
+
+# Composer artifacts
+composer.lock
+
+# PHPUnit
+.phpunit.result.cache
+coverage/
+
+# Cache files
+*.cache
+*.bak
+*.tmp
+
+# OS files
+*.swp
+*.swo
+
+# MacOS
+__MACOSX/

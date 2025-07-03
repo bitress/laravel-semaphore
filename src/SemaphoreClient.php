@@ -27,7 +27,7 @@ class SemaphoreClient
     protected string $apiKey;
 
     /** @var string Base URL for the Semaphore API v4 */
-    protected const BASE_URI = 'https://beta.semaphore.co/api/v4/';
+    protected const BASE_URI = 'https://semaphore.co/api/v4/';
     
     /** @var float Request timeout in seconds */
     protected const TIMEOUT = 5.0;

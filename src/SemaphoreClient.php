@@ -15,7 +15,7 @@ class SemaphoreClient
     protected string $apiKey;
 
     protected const BASE_URI = 'https://semaphore.co/api/v4/';
-    protected const TIMEOUT = 5.0;
+    protected const TIMEOUT = 120;
 
     public function __construct(string $apiKey, ?Client $httpClient = null)
     {
